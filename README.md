@@ -5,24 +5,22 @@ Sempre irá existir inúmeras soluções, tecnologias e linguagens de programaç
 
 Na área de tecnologia vamos tentar abordar sobre Back-End, GIT, Web APIs, http, sockets, Front-End ([HTML](https://www.w3schools.com/html/), [CSS](https://www.w3schools.com/css/), [javascript](https://github.com/luizotavioautomacao/curso-javascript-ninja)), http, microcontroladores, servidor e nuvem.
 
-Sobre [empreendedorimo](https://gvcast.podbean.com/), vai ser mais [dicas de livros inspiradores](http://www.fanap.br/Documentos/AMeninadoVale-BelPesce.pdf) e frases motivadoras para conseguirmos chegar aonde queremos.. E aqui lá vai uma:
+Sobre [empreendedorimo](https://gvcast.podbean.com/), vai ser mais [dicas de livros inspiradores](http://www.fanap.br/Documentos/AMeninadoVale-BelPesce.pdf) e frases motivadoras para conseguirmos chegar aonde queremos.. [E aqui lá vai uma](https://www.fazinova.com.br/courses/curso-criando-oportunidades-2-0?l=pt-BR):
 
 "Há um tempo em que é preciso abandonar as roupas usadas, que já têm a forma do nosso corpo, e esquecer os velhos caminhos, que nos levam sempre aos mesmos lugares. É o tempo da travessia e, se não ousarmos fazê-la, teremos ficados, para sempre, à margem de nós mesmos."
                                 Fernando Pessoa
 
 Nesse blog, vamos fazer juntos alguns projetos com a finalidade de impactar pessoas ensinando sobre tecnologias e como aplicá-las na resolução de problemas da sociedade. E o mais legal é quero tentar usar o máximo de ferramentas [open source](https://www.gnu.org/gnu/linux-and-gnu.en.html) disponíveis.
 
-Quando falamos de tecnologia, entenda-se que é possível resolver qualquer tipo de problema. Para isso, é necessário **sagacidade ou muita vontade**, estudo e MUITA dedicação.
+Quando falamos de tecnologia, entenda-se que é  possível resolver qualquer tipo de problema. Para isso, é necessário **sagacidade ou muita vontade**, estudo e MUITA dedicação.
 
 Eu sempre busquei referências de pessoas e tentei replicar os bons hábitos delas.
 
-Mas mesmo assim será uma tarefa difícil trocar os mals hábitos pelos bons hábitos!
+Pelo menos para mim, sempre foi uma tarefa difícil trocar os mals hábitos pelos bons hábitos!
 
 Mas chega de lero lero.
 
 Vamos começar:
-
-1. 
 
 # OverViem do Primeiro Projeto
 
