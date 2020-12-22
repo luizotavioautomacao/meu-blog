@@ -47,10 +47,7 @@ Mas a real que essa mudança vai fazer com que eu saia da minha zona de conforto
 7. [heroku](https://www.heroku.com/)
 
 
-LINK-TREE
- - Desafio abdominal
- - meu blog
- - currículo
+[LINK-TREE](https://linktr.ee/luizoitavo)
  - facebook
  - instagram
  - youtube
@@ -58,11 +55,16 @@ LINK-TREE
  - 
 
 
-PRIMEIRO DESAFIO:
-Criar 1 VÍDEO para YOUTUBE @LUIZOTAVIOAUTOMACACAO, @ENGENHARIANAPRATICA, @NEWTECNOSCOPIO, @DMAELECTRONICS, @senhor_madruguinha, @chapolin_totavo, @musicas.do.totavo @camisas.do.totavo @luizVIII @luizotavio @luiztotavo 
-- abordar sobre o liquidificador
-- circuito eletro-eletrônico
-- maquinas elétricas, força da corrente, impedância, abordar questões técnicas aplicadas
-- ligar em micricontroladores
-- analisar forma de onda usando osciloscópio
+#Cursos
+ - Cursos do [ITA](https://engenhariae.com.br/editorial/colunas/ita-libera-10-cursos-gratuitos-online-e-com-certificados?fbclid=IwAR2XAgtTbNW0lCugTTX64WYsDI3WPgkv0pEiW7fh2n5Q5v8O3g1MuBNx28U)
 
+DESAFIO:
+Criar video-aula para YouTube 
+
+- motor de um liquidificador (abordar questões técnicas aplicadas) -> ajuda para professor Paulo Monteiro
+- circuito eletro-eletrônico -> conversar com Daniel e Madruguinha
+- acionar por micro-controladores -> tomar VNC, montar circuito
+- analisar forma de onda usando osciloscópio -> Daniel San, Igor e Joe
+
+@luizVIII, @NEWTECNOSCOPIO, @DMAELECTRONICS, @senhor_madruguinha, @chapolin_totavo, 
+@musicas.do.tavinho @camisas.do.totavo @luiztotavo 
