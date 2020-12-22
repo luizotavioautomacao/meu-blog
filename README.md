@@ -35,28 +35,21 @@ Como primeira tarefa vamos ler rapidamente e entender o conceito sobre [diagrama
 Curiosamente decidi mudar de ideia logo no primeiro post! (Porque eu sou desses bem indeciso!)
 Mas a real que essa mudança vai fazer com que eu saia da minha zona de conforto e aprenda Ruby!
 
-
+=> Primeiros projeto: THE NEW LABORATORY
 1. Comandos do git
-2. THE NEW LABORATORY
-3. BACK-END [CD/CI](https://platform.sh/marketplace/)
-3. Tela de [login](https://firebase.google.com/)
-4. pic e matlab => [controle aplicado](https://engenhariae.com.br/editorial/colunas/ita-libera-10-cursos-gratuitos-online-e-com-certificados?fbclid=IwAR2XAgtTbNW0lCugTTX64WYsDI3WPgkv0pEiW7fh2n5Q5v8O3g1MuBNx28U) 
+2. Tela de [login](https://firebase.google.com/) com firebase 
+3. [BACK-END](https://www.heroku.com) [CD](https://platform.sh/marketplace/)/[CI](https://www.netlify.com/) 
+4. PIC e Matlab => [controle aplicado](https://engenhariae.com.br/editorial/colunas/ita-libera-10-cursos-gratuitos-online-e-com-certificados?fbclid=IwAR2XAgtTbNW0lCugTTX64WYsDI3WPgkv0pEiW7fh2n5Q5v8O3g1MuBNx28U) 
 5. Cadastrar um experimento => add equipamento físico 
-=> add osciloscópio no experimento.
-6. usar [netlify](https://www.netlify.com/)
-7. [heroku](https://www.heroku.com/)
+6. Add osciloscópio no experimento.
 
 
 [LINK-TREE](https://linktr.ee/luizoitavo)
- - facebook
- - instagram
- - youtube
- - currículo, luiz-otavio (you-tube?)
- - 
 
 
-#Cursos
+#Cursos e referências abordaremos dentro do projeto
  - Cursos do [ITA](https://engenhariae.com.br/editorial/colunas/ita-libera-10-cursos-gratuitos-online-e-com-certificados?fbclid=IwAR2XAgtTbNW0lCugTTX64WYsDI3WPgkv0pEiW7fh2n5Q5v8O3g1MuBNx28U)
+  - 
 
 DESAFIO:
 Criar video-aula para YouTube 
