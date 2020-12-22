@@ -33,7 +33,7 @@ Como primeira tarefa vamos ler rapidamente e entender o conceito sobre [diagrama
 Curiosamente decidi mudar de ideia logo no primeiro post! Porque eu sou bem indeciso... mas a real que essa mudança vai fazer com que eu saia da minha zona de conforto e aprenda Ruby junto com vocês! 
 
 => [Primeiro projeto](https://decat.ufop.br/weblab-gorceix): [THE NEW LABORATORY](http://200.239.165.38/)
-1. [Comandos do git](https://github.com/luizotavioautomacao/meu-blog/tree/main/git)
+1. [Comandos do git](https:challenge/github.com/luizotavioautomacao/meu-blog/tree/main/git)
 2. Usaremos para fazer [login](https://firebase.google.com/) com firebase 
 3. [BACK-END](https://www.heroku.com) [CD](https://platform.sh/marketplace/)/[CI](https://www.netlify.com/) 
 4. PIC e Matlab => [controle aplicado](https://engenhariae.com.br/editorial/colunas/ita-libera-10-cursos-gratuitos-online-e-com-certificados?fbclid=IwAR2XAgtTbNW0lCugTTX64WYsDI3WPgkv0pEiW7fh2n5Q5v8O3g1MuBNx28U) 
@@ -51,15 +51,5 @@ Testar comunicação http com microcontrolador.
 #Cursos e referências que abordaremos dentro do projeto
   - [TCC](https://www.monografias.ufop.br/handle/35400000/440)
 
-DESAFIO: Criar video-aula para YouTube 
-
-- motor de um liquidificador (abordar questões técnicas aplicadas) -> ajuda para professor Paulo Monteiro
-- circuito eletro-eletrônico -> conversar com Daniel San 
-e Madruguinha
-- acionar por micro-controladores -> Rodrigo
-- analisar forma de onda usando osciloscópio -> Igor e Joe
-
-@luizVIII, @NEWTECNOSCOPIO, @DMAELECTRONICS, @senhor_madruguinha, @chapolin_totavo, 
-@musicas.do.tavinho @camisas.do.totavo @luiztotavo 
 
 [LINK-TREE](https://linktr.ee/luizoitavo)
