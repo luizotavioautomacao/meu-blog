@@ -27,44 +27,44 @@ Vamos começar:
 # FRONT-END
 Abordaremos sobre o framework em TypeScript [Angular](https://angular.io/docs). 
 A documentação é sempre importante. Mas deixo aqui também o [curso](https://www.youtube.com/watch?v=tPOMG0D57S0&list=PLGxZ4Rq3BOBoSRcKWEdQACbUCNWLczg2G) da [Loaine Groner](https://loiane.com/).
-Mas abordaremos [outra opção](https://rubyonrails.org/) no **front-end e back-end**: [Akita on Rayils](https://www.jmonteiro.com/aprendaaprogramar/chapter00.html).
+Abordaremos [outro framework](https://rubyonrails.org/) no **front-end e back-end**: [Akita on Rayils](https://www.jmonteiro.com/aprendaaprogramar/chapter00.html).
 
 Em programação é necessário [algumas fundações](https://drive.google.com/drive/folders/1MNzy8h15WqPwpd0i4bcUy4JUU1IVbvH4?usp=sharing).
-Porém a nosso primeira jornada será sobre [diagramas UML](https://engsoftmoderna.info/cap4.html).
+Como primeira tarefa vamos ler rapidamente e entender o conceito sobre [diagramas UML](https://engsoftmoderna.info/cap4.html).
 
 Curiosamente decidi mudar de ideia logo no primeiro post! (Porque eu sou desses bem indeciso!)
 Mas a real que essa mudança vai fazer com que eu saia da minha zona de conforto e aprenda Ruby!
 
 
 1. Comandos do git
-2. Projeto a desenvolver no git -> me mandar email pedindo autorização: luizotavioautomacao@gmail.com => CRIAR UM FORM? TELEGRAM?
-3. [CD/CI](https://platform.sh/marketplace/)
-3. tela de login
-4. THE NEW LABORATORY => pic? => [controle aplicado](https://engenhariae.com.br/editorial/colunas/ita-libera-10-cursos-gratuitos-online-e-com-certificados?fbclid=IwAR2XAgtTbNW0lCugTTX64WYsDI3WPgkv0pEiW7fh2n5Q5v8O3g1MuBNx28U) 
+2. THE NEW LABORATORY
+3. BACK-END [CD/CI](https://platform.sh/marketplace/)
+3. Tela de [login](https://firebase.google.com/)
+4. pic e matlab => [controle aplicado](https://engenhariae.com.br/editorial/colunas/ita-libera-10-cursos-gratuitos-online-e-com-certificados?fbclid=IwAR2XAgtTbNW0lCugTTX64WYsDI3WPgkv0pEiW7fh2n5Q5v8O3g1MuBNx28U) 
 5. Cadastrar um experimento => add equipamento físico 
 => add osciloscópio no experimento.
 6. usar [netlify](https://www.netlify.com/)
 7. [heroku](https://www.heroku.com/)
 
 
-LINK-TREE
- - Desafio abdominal
- - meu blog
- - currículo
+[LINK-TREE](https://linktr.ee/luizoitavo)
  - facebook
  - instagram
  - youtube
-- currículo, luiz-otavio (you-tube?)
-- 
+ - currículo, luiz-otavio (you-tube?)
+ - 
 
 
+#Cursos
+ - Cursos do [ITA](https://engenhariae.com.br/editorial/colunas/ita-libera-10-cursos-gratuitos-online-e-com-certificados?fbclid=IwAR2XAgtTbNW0lCugTTX64WYsDI3WPgkv0pEiW7fh2n5Q5v8O3g1MuBNx28U)
 
+DESAFIO:
+Criar video-aula para YouTube 
 
+- motor de um liquidificador (abordar questões técnicas aplicadas) -> ajuda para professor Paulo Monteiro
+- circuito eletro-eletrônico -> conversar com Daniel e Madruguinha
+- acionar por micro-controladores -> tomar VNC, montar circuito
+- analisar forma de onda usando osciloscópio -> Daniel San, Igor e Joe
 
-1 VÍDEO DO CANAL DO YOUTUBE @LUIZOTAVIOAUTOMACACAO, @ENGENHARIANAPRATICA, @NEWTECNOSCOPIO, @DMAELECTRONICS, @senhor_madruguinha, @chapolin_totavo, @musicas.do.totavo @camisas.do.totavo @luizVIII @luizotavio @luiztotavo 
-- abordar sobre o liquidificador
-- circuito eletro-eletrônico
-- maquinas elétricas, força da corrente, impedância, abordar questões técnicas aplicadas
-- ligar em micricontroladores
-- analisar forma de onda usando osciloscópio
-
+@luizVIII, @NEWTECNOSCOPIO, @DMAELECTRONICS, @senhor_madruguinha, @chapolin_totavo, 
+@musicas.do.tavinho @camisas.do.totavo @luiztotavo 
