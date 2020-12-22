@@ -8,11 +8,10 @@ Na área de tecnologia vamos tentar abordar sobre Back-End, GIT, Web APIs, http,
 Sobre [empreendedorimo](https://gvcast.podbean.com/), vai ser mais [dicas de livros inspiradores](http://www.fanap.br/Documentos/AMeninadoVale-BelPesce.pdf) e frases motivadoras para conseguirmos chegar aonde queremos.. [E aqui lá vai uma](https://www.fazinova.com.br/courses/curso-criando-oportunidades-2-0?l=pt-BR):
 
 "Há um tempo em que é preciso abandonar as roupas usadas, que já têm a forma do nosso corpo, e esquecer os velhos caminhos, que nos levam sempre aos mesmos lugares. É o tempo da travessia e, se não ousarmos fazê-la, teremos ficados, para sempre, à margem de nós mesmos."
-                                Fernando Pessoa
 
 Nesse blog, vamos fazer juntos alguns projetos com a finalidade de impactar pessoas ensinando sobre tecnologias e como aplicá-las na resolução de problemas da sociedade. E o mais legal é quero tentar usar o máximo de ferramentas [open source](https://www.gnu.org/gnu/linux-and-gnu.en.html) disponíveis.
 
-Quando falamos de tecnologia, entenda-se que é  possível resolver qualquer tipo de problema. Para isso, é necessário **sagacidade ou muita vontade**, estudo e MUITA dedicação.
+Quando falamos de tecnologia, entenda-se que é  possível resolver qualquer tipo de problema. Para isso, é necessário muita vontade ou ter sagacidade, e claro: muito estudo e muita dedicação.
 
 Eu sempre busquei referências de pessoas e tentei replicar os bons hábitos delas.
 
@@ -31,7 +30,7 @@ Abordaremos [outro framework](https://rubyonrails.org/) no **front-end e back-en
 Em programação é necessário [algumas fundações](https://drive.google.com/drive/folders/1MNzy8h15WqPwpd0i4bcUy4JUU1IVbvH4?usp=sharing).
 Como primeira tarefa vamos ler rapidamente e entender o conceito sobre [diagramas UML](https://engsoftmoderna.info/cap4.html).
 
-Curiosamente decidi mudar de ideia logo no primeiro post! Porque eu sou bem indeciso... mas a real que essa mudança vai fazer com que eu saia da minha **zona de conforto** e aprenda Ruby! 
+Curiosamente decidi mudar de ideia logo no primeiro post! Porque eu sou bem indeciso... mas a real que essa mudança vai fazer com que eu saia da minha zona de conforto e aprenda Ruby junto com vocês! 
 
 => [Primeiro projeto](https://decat.ufop.br/weblab-gorceix): [THE NEW LABORATORY](http://200.239.165.38/)
 1. [Comandos do git](https://github.com/luizotavioautomacao/meu-blog/tree/main/git)
