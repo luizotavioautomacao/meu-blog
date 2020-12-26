@@ -1,7 +1,7 @@
 # DESAFIO:
 ## Criar video-aula para YouTube 
 
-- motor de um liquidificador (abordar questões técnicas aplicadas) -> ajuda para professor Paulo Monteiro
+- motor de um liquidificador (abordar engenharia aplicada) -> ajuda para professor Paulo Monteiro
 - circuito eletro-eletrônico -> conversar com Daniel San 
 e Madruguinha
 - acionar por micro-controladores -> Rodrigo

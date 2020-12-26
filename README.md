@@ -45,11 +45,12 @@ Criar projeto no Jira e/ou Github (Back-End e Front-End)
 Montar jornada do usuário no Figma.
 Restruturar o front-end do laboratório usando Ruby on Rails ou Angular.
 Será necessário o uso de diagramas UML para restruturar database.
-Criar novo servidor. (socket) (node.js e/ou ruby)
+Criar novo servidor. (socket) ([node.js](https://nodejs.org/en/docs/) e/ou ruby)
 Testar comunicação http com microcontrolador.
 
 #Cursos e referências que abordaremos dentro do projeto
   - [TCC](https://www.monografias.ufop.br/handle/35400000/440)
+  - [Estrutura do projeto](https://youtu.be/vAV4Vy4jfkc) - [github](https://github.com/rocketseat-content/youtube-api-node-solid)
 
 
 [LINK-TREE](https://linktr.ee/luizoitavo)
