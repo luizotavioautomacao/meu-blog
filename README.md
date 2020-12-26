@@ -21,24 +21,20 @@ Mas chega de lero lero.
 
 Vamos começar:
 
-# OverViem do Primeiro Projeto
-
 Abordaremos sobre o framework em TypeScript [Angular](https://angular.io/docs). 
 A documentação é sempre importante. Mas deixo aqui também o [curso](https://www.youtube.com/watch?v=tPOMG0D57S0&list=PLGxZ4Rq3BOBoSRcKWEdQACbUCNWLczg2G) da [Loaine Groner](https://loiane.com/).
-Abordaremos [outro framework](https://rubyonrails.org/) no **front-end e back-end**: [Akita on Rayils](https://www.jmonteiro.com/aprendaaprogramar/chapter00.html).
+Abordaremos [outro framework](https://rubyonrails.org/) no **front-end e back-end**: [Akita on Rails](https://www.jmonteiro.com/aprendaaprogramar/chapter00.html).
 
 Em programação é necessário [algumas fundações](https://drive.google.com/drive/folders/1MNzy8h15WqPwpd0i4bcUy4JUU1IVbvH4?usp=sharing).
 Como primeira tarefa vamos ler rapidamente e entender o conceito sobre [diagramas UML](https://engsoftmoderna.info/cap4.html).
 
-Curiosamente decidi mudar de ideia logo no primeiro post! Porque eu sou bem indeciso... mas a real que essa mudança vai fazer com que eu saia da minha zona de conforto e aprenda Ruby junto com vocês! 
-
-=> [Primeiro projeto](https://decat.ufop.br/weblab-gorceix): [THE NEW LABORATORY](http://200.239.165.38/)
-1. [Comandos do git](https:challenge/github.com/luizotavioautomacao/meu-blog/tree/main/git)
-2. Usaremos para fazer [login](https://firebase.google.com/) com firebase 
-3. [BACK-END](https://www.heroku.com) [CD](https://platform.sh/marketplace/)/[CI](https://www.netlify.com/) 
-4. PIC e Matlab => [controle aplicado](https://engenhariae.com.br/editorial/colunas/ita-libera-10-cursos-gratuitos-online-e-com-certificados?fbclid=IwAR2XAgtTbNW0lCugTTX64WYsDI3WPgkv0pEiW7fh2n5Q5v8O3g1MuBNx28U) 
-5. Cadastrar um experimento => add equipamento físico 
-6. Add osciloscópio no experimento.
+### OverViem do Projeto
+=> [Primeiro projeto](https://decat.ufop.br/weblab-gorceix): [Laboratório Remoto](http://200.239.165.38/)
+- [Comandos do git que usaremos](https:challenge/github.com/luizotavioautomacao/meu-blog/tree/main/git)
+- [BACK-END](https://nodejs.org/en/download) [C](https://platform.sh/marketplace/)[D](https://www.heroku.com)/[CI](https://www.netlify.com/) 
+- [PIC18f4550](https://www.microchip.com/wwwproducts/en/PIC18F4550) e [Matlab](https://www.mathworks.com/) => [controle aplicado](https://engenhariae.com.br/editorial/colunas/ita-libera-10-cursos-gratuitos-online-e-com-certificados?fbclid=IwAR2XAgtTbNW0lCugTTX64WYsDI3WPgkv0pEiW7fh2n5Q5v8O3g1MuBNx28U) 
+- Cadastrar um experimento => add equipamento físico 
+- Add osciloscópio no experimento.
 
 Objetivos:
 Criar projeto no Jira e/ou Github (Back-End e Front-End)
