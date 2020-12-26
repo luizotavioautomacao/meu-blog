@@ -1,5 +1,6 @@
-#[DOCUMENTAÇÃO CONFLUENCE](https://dmaind.atlassian.net/wiki/spaces/NT/overview)
-##[BITBUCKET](https://BItbucket.org), [GUIA RÁPIDO GIT](https://rogerdudler.github.io/git-guide/index.pt_BR.html), [stack overflow](https://stackoverflow.com/questions/4114095/how-do-i-revert-a-git-repository-to-a-previous-commit)
+##[Aprendendo GIT com BitBucket](https://www.atlassian.com/br/git/tutorials/learn-git-with-bitbucket-cloud)
+###[DOCUMENTAÇÃO CONFLUENCE](https://dmaind.atlassian.net/wiki/spaces/NT/overview)
+###[BITBUCKET](https://BItbucket.org), [GUIA RÁPIDO GIT](https://rogerdudler.github.io/git-guide/index.pt_BR.html), [stack overflow](https://stackoverflow.com/questions/4114095/how-do-i-revert-a-git-repository-to-a-previous-commit)
 
 * ## Primeiros passos
 **`git config --list`**
