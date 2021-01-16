@@ -1,5 +1,6 @@
 # meu-blog
-A ideia é criar posts relacionado a tecnologias e empreendedorismo. Vai ser cheio de links e tal... e vou usar o [read-me](https://medium.com/@raullesteves/github-como-fazer-um-readme-md-bonit%C3%A3o-c85c8f154f8) do próprio github. 
+A ideia é conteúdo relacionado a tecnologias, empreendedorismo e outras coisas que eu acho legal. 
+Vai ser cheio de links e tal... e vou usar o [read-me](https://medium.com/@raullesteves/github-como-fazer-um-readme-md-bonit%C3%A3o-c85c8f154f8) do próprio github. 
 
 Sempre irá existir inúmeras soluções, tecnologias e linguagens de programação diferentes. Não terceirize suas escolhas. Porém aqui deixo algumas referências que usei na minha trajetória até aqui.
 
