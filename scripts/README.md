@@ -8,3 +8,6 @@ Esse script faz backup do meu banco de dados no diretório que chamei de path.
 
 https://www.loom.com/share/5268e261c9184dfba98d911347ab2528
 
+--
+informações do computador -> https://youtu.be/WSeQ0Pn-JNU
+
