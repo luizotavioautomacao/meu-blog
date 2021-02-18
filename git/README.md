@@ -1,6 +1,6 @@
 git config --list
-git congig --global core.editor code --wait
-git congig --global --edit
+git config --global core.editor code --wait
+git config --global --edit
 --
 git commit --amend --no-edit
 
