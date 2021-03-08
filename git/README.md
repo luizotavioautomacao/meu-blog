@@ -4,9 +4,6 @@ git config --global --edit
 --
 git commit --amend --no-edit
 
-
-
-
 ---
 ##[Aprendendo GIT com BitBucket](https://www.atlassian.com/br/git/tutorials/learn-git-with-bitbucket-cloud)
 ###[DOCUMENTAÇÃO CONFLUENCE](https://dmaind.atlassian.net/wiki/spaces/NT/overview)
