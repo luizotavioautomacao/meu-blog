@@ -11,6 +11,7 @@ Isso mesmo!
 
 É bom você já ir me conhecendo.. já que vamos usar o meu currículo como base.
 
+https://site-v1.gama.academy/blog/recrutamento/hacks-para-sua-entrevista-de-emprego/
 Vamos combinar assim: coloca seu contato aqui porque vamos fazer 'A live do currículo' e você não vai querer ficar de fora ne? hehe {1. aqui podemos agregar mais valor na live (ou em uma segunda live) com profissinal de RH que pode dar dicas tanto de currículo quanto de entrevistas 2. dicas de cursos (direcionamento) oferencendo os nossos produtos}
 
 Nessa live vamos abordar alguns tópicos importante e vamos colocar a mão na massa.
@@ -92,5 +93,8 @@ E para finalizar quero deixar que o intuito do blog é ensinar a usar as ferrame
 
 Nos próximos capítulos falaremos mais ...
 
+
+desafio das lives:
+https://tecnoblog.net/332549/como-fazer-live-para-varios-lugares-ao-mesmo-tempo/
 
 
