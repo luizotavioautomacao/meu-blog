@@ -14,14 +14,6 @@ Nesse blog, vamos fazer juntos alguns projetos com a finalidade de impactar pess
 
 Quando falamos de tecnologia, entenda-se que é  possível resolver qualquer tipo de problema. Para isso, é necessário muita vontade ou ter sagacidade, e claro: muito estudo e muita dedicação.
 
-Eu sempre busquei referências de pessoas e tentei replicar os bons hábitos delas.
-
-Pelo menos para mim, sempre foi uma tarefa difícil trocar os mals hábitos pelos bons hábitos!
-
-Mas chega de lero lero.
-
-Vamos começar:
-
 Abordaremos sobre o framework em TypeScript [Angular](https://angular.io/docs). 
 A documentação é sempre importante. Mas deixo aqui também o [curso](https://www.youtube.com/watch?v=tPOMG0D57S0&list=PLGxZ4Rq3BOBoSRcKWEdQACbUCNWLczg2G) da [Loaine Groner](https://loiane.com/).
 Abordaremos [outro framework](https://rubyonrails.org/) no **front-end e back-end**: [Akita on Rails](https://www.jmonteiro.com/aprendaaprogramar/chapter00.html).
@@ -47,7 +39,11 @@ Testar comunicação http com microcontrolador.
 
 #Cursos e referências que abordaremos dentro do projeto
   - [TCC](https://www.monografias.ufop.br/handle/35400000/440)
-  - [Estrutura do projeto](https://youtu.be/vAV4Vy4jfkc) - [github](https://github.com/rocketseat-content/youtube-api-node-solid)
+  - [Exemplo de uma estrutura de projeto](https://youtu.be/vAV4Vy4jfkc) - [github](https://github.com/rocketseat-content/youtube-api-node-solid)
 
-
+---
+Contatos:
+luizotavioautomacao@gmail.com
+[meu-site](https://luizotavio.netlify.app/)
+[meu-currículo](https://luizotavio.netlify.app/curriculum.html)
 [LINK-TREE](https://linktr.ee/luizoitavo)
