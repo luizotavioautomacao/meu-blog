@@ -1,3 +1,5 @@
+O MongoDB é um banco de dados de documentos do NoSQL de software livre projetado para funcionar com JSON e armazenar informações sem esquema. Ele é horizontalmente escalonável, o que significa que vários computadores menores farão o trabalho para você. É bom para flexibilidade e dados não estruturados, além de armazenar em cache a análise em tempo real.
+
 MondoDB -> document database [Documentação](https://docs.mongodb.com/manual/tutorial/manage-mongodb-processes/)
 
 - JSON -> [JavaScript Object Notation](https://www.json.org)

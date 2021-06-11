@@ -1,0 +1,6 @@
+[Aula com introdução a mapas mentais de engenharia de software](https://youtu.be/IHVn8Am7i_M)
+[roadmap.sh](https://roadmap.sh/)
+[mapa da programação](https://github.com/kamranahmedse/developer-roadmap)
+[How to learn Software Design and Architecture](https://khalilstemmler.com/articles/software-design-architecture/full-stack-software-design/)
+[livro de referência](https://abseil.io/resources/swe_at_google.2.pdf)
+[Institute for Software Research](https://isr.uci.edu/)

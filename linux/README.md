@@ -1,0 +1,1 @@
+[Entendendo a estrutura de diretórios do Ubuntu](https://youtu.be/90UseHX4-ns)
