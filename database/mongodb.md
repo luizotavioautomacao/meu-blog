@@ -24,3 +24,6 @@ mongoimport -c megasena --type csv --headerline megasena.csv
 
 OBS:
 * Se o documento passar de bilhões de registros deve-se separá-los por cluster pela data.
+
+Cursos e artigos
+- [w3big](http://www.w3big.com/pt/mongodb/default.html)

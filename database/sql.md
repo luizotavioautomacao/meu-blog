@@ -1,0 +1,1 @@
+[esumo para iniciantes](https://www.devmedia.com.br/sql-select-guia-para-iniciantes/29530#5)
