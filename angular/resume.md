@@ -1,0 +1,1 @@
+[Como passar objetos entre componenetes por serviço ou state](https://www.youtube.com/watch?v=B4wrRMQgFiE)
