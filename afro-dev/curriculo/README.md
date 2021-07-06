@@ -94,7 +94,7 @@ E para finalizar quero deixar que o intuito do blog é ensinar a usar as ferrame
 Nos próximos capítulos falaremos mais ...
 
 
-desafio das lives:
+desafio das lives:  
 https://tecnoblog.net/332549/como-fazer-live-para-varios-lugares-ao-mesmo-tempo/
 
 

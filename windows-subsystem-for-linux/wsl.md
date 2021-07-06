@@ -1,3 +1,4 @@
+[Windows Subsystem for Linux](https://docs.microsoft.com/en-us/windows/wsl/install-win10)
 [História do WLS2](https://youtu.be/28jHuWBi72w)
 Painel de Controle -> Programas -> Ativar ferramentas windows -> habilitar Windows Subsystem for Linux, Windows Hypervisor Platform (máquina virtual) e o que mais te agradar.
 [Tutorial 1 - Habilitando windows for linux](https://youtu.be/_Wp2nWtTBBY)
@@ -10,4 +11,6 @@ sudo chown -R `id -un` /data/db
 ```
 [Acessar diretórios do Ubuntu pelo Windows](https://youtu.be/nEqj-4UsND4) -> `C:\Users\luiz_\AppData\Local\Packages\CanonicalGroupLimited.Ubuntu20.04onWindows_79rhkp1fndgsc\LocalState`
 pode acessar rapidamente com o endereço: `\\wsl$`
+
+-
 

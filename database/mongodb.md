@@ -27,3 +27,10 @@ OBS:
 
 Cursos e artigos
 - [w3big](http://www.w3big.com/pt/mongodb/default.html)
+- [install-mongodb-on-ubuntu-20-04](https://www.digitalocean.com/community/tutorials/how-to-install-mongodb-on-ubuntu-20-04)
+
+Após instalar no Windows, devemos criar um path ou executar `mongod` na pasta que contém o executável do mongod (no meu computador -> C:\Program Files\MongoDB\Server\4.4\bin )
+Parar criar um path e executar `mongod` em qualquer pasta do cmd
+set PATH=%mongod%;C:\Program Files\MongoDB\Server\4.4\bin
+ou executar `mongod` na pasta que contém o executável do mongod (no meu computador -> C:\Program Files\MongoDB\Server\4.4\bin )
+Pesquisa por "variável de ambiente" e adicione no botão 'novo' o caminho do mogond (no meu computador -> C:\Program Files\MongoDB\Server\4.4\bin ) na seção "Variáveis do sistema" -> agora é só ser feliz! =]
