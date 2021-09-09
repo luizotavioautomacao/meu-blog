@@ -148,4 +148,5 @@ git clone -b develop git@github.com:user/myproject.git
 ```
 git remote add origin https://your-username@bitbucket.org/ommunedevelopers/repository-name.git
 
+(why-you-should-use-git-pull-ff-only-git-is-a)[https://blog.sffc.xyz/post/185195398930/why-you-should-use-git-pull-ff-only-git-is-a]
 

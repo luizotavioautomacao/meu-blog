@@ -41,6 +41,9 @@ Testar comunicação http com microcontrolador.
   - [TCC](https://www.monografias.ufop.br/handle/35400000/440)
   - [Exemplo de uma estrutura de projeto](https://youtu.be/vAV4Vy4jfkc) - [github](https://github.com/rocketseat-content/youtube-api-node-solid)
 
+  ##Outros Links]
+  - [Criar um bom README.md](https://blog.rocketseat.com.br/como-fazer-um-bom-readme/)
+
 ---
 Contatos:
 luizotavioautomacao@gmail.com
