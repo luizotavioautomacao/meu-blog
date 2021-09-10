@@ -75,9 +75,108 @@ FROM debian
 RUN /bin/echo "HELLO DOCKER!"
 ```
 `docker build -t tosko:1.0 .`
-Criando Volumes:
+### Criando Volumes:
 `docker container run -ti --mount type=bind,src=/home/luizotavio/mvp/primeiro_dockerFile,dst=/volume ubuntu`
 `docker container run -ti --mount type=bind,src=/home/luizotavio/mvp/primeiro_dockerFile,dst=/volume,ro ubuntu` => ready only
 `docker container run -ti --mount type=bind,src=/home/luizotavio/mvp/primeiro_dockerFile/Dockerfile,dst=/Dockerfile ubuntu`
-Criando Volumes de maneira elegantes:
+### Criando Volumes de maneira elegantes:
+`docker volume create nomeVolume1`
+### Para removê-lo:
+`docker volume rm nomeVolume1`
+### Para verificar detalhes desse volume:
+`docker volume inspect nomeVolume1`
+### Para remover volumes que não estão sendo utilizados:
+`docker volume prune`
+### Para montar o volume em algum container:
+`docker container run -d --mount type=volume,source=nomeVolume1, destination=/varopa nginx` 
+--mount => comando para criar volumes
+type=volume => indica que o tipo é "volume". Ainda existe "bind", onde, em vez de indicar um volume, você indicaria um diretório como source
+destination=/var/opa => onde no container montarei esse volume
+### Localizando volumes:
+`docker volume inspect --format '{{ .Mountpoint }}' nomeVolume1`
+"-f" ou "--format" => é um filtro da saída do inspect
+### Vamos criar um container com o nome de database com um volume chamado /data
+`docker container create -v /data --name database centos`
+`docker inspect -f {{.Mounts}} database`
+--volumes-from => utilizado quando queremos montar um volume disponibilizado por outro container
+-e => utilizado para informar variáveis de ambiente para o container
+### Agora vamos criar um container com o Banco de Dados (PostgreSQL) para acessar o volume database
+`docker run -d -p 5432:5432 --name pgsql1 --volumes-from database -e POSTGRESQL_USER=docker -e POSTGRESQL_PASS=docker -e POSTGRESQL_DB=docker kamui/postgresql`
+`docker run -d -p 5433:5432 --name pgsql2 --volumes-from database -e POSTGRESQL_USER=docker -e POSTGRESQL_PASS=docker -e POSTGRESQL_DB=docker kamui/postgresql`
+### Fazer backup do diretório /data do container "database"
+`mkdir backup`
+`cd backup`
+`docker run -ti --volumes-from database -v $(pwd):/backup debian tar -cvf /backup/backup.tar /data`
+
+### Criando e gerenciando imagens
+```
+mkdir /root/Dockerfiles
+cd /root/Dockerfiles
+mkdir apache
+cd apache
+vim Dockerfile
+FROM debian
+
+RUN apt-get update && apt-get install -y apache2 && apt-get clean
+ENV APACHE_LOCK_DIR="/var/lock"
+ENV APACHE_PID_FILE="/var/run/apache2.pid"
+ENV APACHE_RUN_USER="www-data"
+ENV APACHE_RUN_GROUP="www-data"
+ENV APACHE_LOG_DIR="/var/log/apache2"
+
+LABEL description="Webserver"
+
+VOLUME /var/www/html
+EXPOSE 80
+
+ENTRYPOINT ["/usr/sbin/apachect1"]
+CMD ["-D", "FOREGROUND"]
+```
+FROM => indica a imagem a servir como base (primeira linha do Dockerfile)
+RUN => lista de comandos que deseja executar na criação da imagem
+ENV => define variáveis de ambiente
+LABEL => adiciona metadata à imagem, como descrição, versão, etc ...
+VOLUME => define um volume a ser montando no container
+ADD => copia novos arquivos, diretórios, arquivos TAR ou arquivos remotos e os adiociona ao filesystem do container
+CMD => executa um comando. Diferente do RUN que executa o comando quando está "buildando" a imagem, o CMD executa somente quando o container for iniciado
+COPY => copia novos arquivos e diretórios e os adiciona ao filesystem do container
+MAINTAINER => autor da imagem
+USER => determina qual usuário será utilizado na imagem (por default é o root)
+WORKDIR => responsável por mudar do diretório "/" (raiz) para o especificado nele
+ENTRYPOINT => permite configurar um container para rodar um executável. Quando o executável for finalizado, o container também será.
+No exemplo do Dockerfile o ENTRYPOINT:
+"/usr/sbin/apachect1" => esse é o comando
+"-D", "FOREGROUND => parâmetros
+No shell ficaria assim:
+`/usr/sbin/apachect1 -D FOREGROUND`
+- [Mais detalhes](https://www.slideshare.net/jfnredes/images-deep-dive)
+
+Após criar o arquivo Dockerfile vamos fazer o build:
+`docker build .`
+`docker image ls`
+Vamos executar novamente passando o parâmetro "-t" que é responsável por adicionar uma tag
+`docker build -t luizotavio/apache:1.0 .`
+`docker image ls`i
+Vamos executar o container criado:
+`docker container run -ti luizotavio/apache:1.0`
+`ps -ef` => verificar se a porta 80 está "LISTEN"
+`/etc/init.d/apache2 start`
+`apt update && apt install iproute2` => se não executar o comando abaixo
+`ip addr show eth0`
+
+### Multi-stage => pipeline no dockerfile
+Podemos compilar nossa aplicação em um container e executá-la em outro container => mais rápido e menos memória
+---
+### Customizar uma imagem a partir de uma existente
+`docker container run -ti debian:8 /bin/bash`
+Vamos instalar o apache como exemplo:
+`apt-get update && apt-get install -y apache2 && apt-get clean`
+`Ctrl + p + q`
+`docker container ls`
+`docker commit -m "meu container" CONTAINER ID`
+`docker tag IMAGE ID luizotavio/debian_apache_2:1.0`
+`docker container run -ti luizotavio/debian_apache_2:1.0 /bin/bash`
+`/etc/init.d/apache2 start`
+`ss -atn`
+`ip addr show eth0`
 
