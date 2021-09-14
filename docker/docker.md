@@ -7,6 +7,7 @@
 ## Resumo comandos
 `docker run hello-world`
 `docker --version`
+`docker rm -f $(docker ps -a -q)` => remover todos os dockers (containers e image)
 
 ## Livros
 (Descomplicando Docker)[https://www.amazon.com.br/Descomplicando-Jeferson-Fernando-Nogueira-Vitalino/dp/857452901X/ref=sr_1_1?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=docker&qid=1630433004&sr=8-1]
@@ -156,7 +157,7 @@ Após criar o arquivo Dockerfile vamos fazer o build:
 `docker image ls`
 Vamos executar novamente passando o parâmetro "-t" que é responsável por adicionar uma tag
 `docker build -t luizotavio/apache:1.0 .`
-`docker image ls`i
+`docker image ls`
 Vamos executar o container criado:
 `docker container run -ti luizotavio/apache:1.0`
 `ps -ef` => verificar se a porta 80 está "LISTEN"

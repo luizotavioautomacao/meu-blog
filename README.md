@@ -37,11 +37,11 @@ Será necessário o uso de diagramas UML para restruturar database.
 Criar novo servidor. (socket) ([node.js](https://nodejs.org/en/docs/) e/ou ruby)
 Testar comunicação http com microcontrolador.
 
-#Cursos e referências que abordaremos dentro do projeto
+# Cursos e referências que abordaremos dentro do projeto
   - [TCC](https://www.monografias.ufop.br/handle/35400000/440)
   - [Exemplo de uma estrutura de projeto](https://youtu.be/vAV4Vy4jfkc) - [github](https://github.com/rocketseat-content/youtube-api-node-solid)
 
-  ##Outros Links]
+  ## Outros Links
   - [Criar um bom README.md](https://blog.rocketseat.com.br/como-fazer-um-bom-readme/)
 
 ---
