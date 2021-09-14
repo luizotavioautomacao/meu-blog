@@ -179,4 +179,72 @@ Vamos instalar o apache como exemplo:
 `/etc/init.d/apache2 start`
 `ss -atn`
 `ip addr show eth0`
+### Compartilhando imagens 
+Fazer cadastro para login no [hub.docker](https://hub.docker.com/)
+`docker history IMAGE ID` => histórico do que foi feito no docker
+- Alternativa ao [docker history, mas usando a web](https://www.ctl.io/developers/blog/post/imagelayers-io-docker-visualization-and-badges) sem fazer download da image
+Após cadastro:
+`docker login`
+É possível criar repositórios à vontade porém na conta free somente um repositório privado
+`docker login registry.seilaqual.com` Se não usar o hub.docker e usar outra opção
+Subir uma imagem no Docker Hub:
+1. Fazer o commit => `docker commit -m 'meu container' CONTAINER ID`
+2. Fazer o push => `docker push usuario/nome_da_imagem:versão`
+`docker push luizotavioautomacao/debian_apache_2:1.0` => luizotavio/debian_apache_2   1.0       38a6e0a23f74
+`docker search nome_usuario` => procurar repositórios na sua conta
+`docker image rm` => responsável por remover a imagem do disco local
+Registrar imagens localmente
+Vamos clonar o repositório do [Docker Distribution](https://github.com/distribution/distribution)
+`docker container run -d -p 5000:5000 --restart=always --name registry registry:2` => criamos um container chamado "registry" que utiliza a imagem "registry:2" e com o parâmetro "--restart=always" sempre será reiniciado acaso houver problema
+`docker tag IMAGE ID localhost:5000/debian_apache_2` => criar um nova tah para fazer o push localmente
+`docker push localhost:5000/debian_apache_2` => fizemos um regustry local
+Para mais informações => https://github.com/distribution/distribution
 
+### Gerenciando a rede dos containers
+-dns => indica o servidor DNS
+-hostname => indica um hostname
+-link => cria um link entre os containers sem a necessidade de se saber o IP um do outro
+-net => permite configurar o modo de rede que você usará com o container, a mais conhecida é -net=host que permite o container utiliza a rede do host para se comunicar a não crie um stack de rede para o container
+-expose => expõe a porta do container apenas
+-publish => expõe a porta do container apenas
+-default-gateway => determina a rota padrão
+-mac-address => determina um MAC address
+`iptables -L -n`
+`iptables -L -n -t nat`
+
+### Docker Machine, Docker Swarm e Docker Compose
+Docker Machine é usado para criar vários hosts => [documentação](https://docs.docker.com/machine/)
+Instalando o Docker Compose
+```
+wget https://github.com/docker/compose/releases/download/1.6.2/docker-compose-Linux-x86_64
+mv docker-compose-Linux-x86_64 /usr/local/bin/dockercompose
+chmod +x /usr/local/bin/docker-compose
+```
+Verificando se o Docker Compose foi instalado e sua versão:
+`docker-compose —version` => docker-compose version 1.29.2, build 5becea4c
+build => indica o caminho do seu dockerfile
+command => executa um comando
+container_name => nome para container
+dns => indica o DNS server
+dns_search => especifica um search domain
+dockerfile => especifica um dockerfile alternativo
+env_file => especifica um arquivo com variáveis de ambiente
+environment => adiciona variáveis de ambiente
+expose => expõe a porta do container
+external_links => linka containers que não estão especificados no Docker Compose atual
+extra_hosts => adiciona uma entrada no "etc/hosts" do container
+image => indica uma imagem
+labels => adiciona metadados ao container
+links => linka container dentro do mesmo Compose Docker
+log_driver => indica o formato de log a ser gerado, por exemplo, syslog, json-file, etc
+log_opt => indica para onde mandar os logs. Pode ser local ou em syslog remoto
+net => modo de uso da rede
+ports => expõe as portas do container e do host
+volumes, volume_driver => monta volumes no container
+volumes_from => monta volumes através de outro container
+`docker-compose up`
+`docker-compose up -d`
+`docker-compose ps`
+`docker-compose stop`
+`docker-compose start`
+`docker-compose logs`
