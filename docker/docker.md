@@ -76,10 +76,15 @@ FROM debian
 RUN /bin/echo "HELLO DOCKER!"
 ```
 `docker build -t tosko:1.0 .`
+
 ### Criando Volumes:
+
 `docker container run -ti --mount type=bind,src=/home/luizotavio/mvp/primeiro_dockerFile,dst=/volume ubuntu`
+
 `docker container run -ti --mount type=bind,src=/home/luizotavio/mvp/primeiro_dockerFile,dst=/volume,ro ubuntu` => ready only
+
 `docker container run -ti --mount type=bind,src=/home/luizotavio/mvp/primeiro_dockerFile/Dockerfile,dst=/Dockerfile ubuntu`
+
 ### Criando Volumes de maneira elegantes:
 `docker volume create nomeVolume1`
 ### Para removê-lo:
@@ -194,6 +199,7 @@ Subir uma imagem no Docker Hub:
 `docker push luizotavioautomacao/debian_apache_2:1.0` => luizotavio/debian_apache_2   1.0       38a6e0a23f74
 `docker search nome_usuario` => procurar repositórios na sua conta
 `docker image rm` => responsável por remover a imagem do disco local
+`docker image prune` => remover todas as imagens    
 Registrar imagens localmente
 Vamos clonar o repositório do [Docker Distribution](https://github.com/distribution/distribution)
 `docker container run -d -p 5000:5000 --restart=always --name registry registry:2` => criamos um container chamado "registry" que utiliza a imagem "registry:2" e com o parâmetro "--restart=always" sempre será reiniciado acaso houver problema
@@ -222,7 +228,9 @@ mv docker-compose-Linux-x86_64 /usr/local/bin/dockercompose
 chmod +x /usr/local/bin/docker-compose
 ```
 Verificando se o Docker Compose foi instalado e sua versão:
+
 `docker-compose —version` => docker-compose version 1.29.2, build 5becea4c
+
 build => indica o caminho do seu dockerfile
 command => executa um comando
 container_name => nome para container
@@ -243,6 +251,7 @@ net => modo de uso da rede
 ports => expõe as portas do container e do host
 volumes, volume_driver => monta volumes no container
 volumes_from => monta volumes através de outro container
+
 `docker-compose up`
 `docker-compose up -d`
 `docker-compose ps`
