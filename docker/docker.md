@@ -6,14 +6,16 @@
 
 ## Resumo comandos
 `docker run hello-world`
+
 `docker --version`
+
 `docker rm -f $(docker ps -a -q)` => remover todos os dockers (containers e image)
 
 ## Livros
-(Descomplicando Docker)[https://www.amazon.com.br/Descomplicando-Jeferson-Fernando-Nogueira-Vitalino/dp/857452901X/ref=sr_1_1?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=docker&qid=1630433004&sr=8-1]
+[Descomplicando Docker](https://www.amazon.com.br/Descomplicando-Jeferson-Fernando-Nogueira-Vitalino/dp/857452901X/ref=sr_1_1?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=docker&qid=1630433004&sr=8-1)
 
 ## Referências de profissionais da área
-(Jeferson Fernando Vitalino)[https://www.linkedin.com/in/jefersonfernando/?originalSubdomain=nl]
+[Jeferson Fernando Vitalino](https://www.linkedin.com/in/jefersonfernando/?originalSubdomain=nl)
 
 ---
 Instalando versão recente do docker no Linux:
