@@ -1,5 +1,5 @@
 ## Links
-[Play with Docker](https://labs.play-with-docker.com)
+[Play with Docker](https://labs.play-with-docker.com)  
 [Curso de introdução a docker](https://www.youtube.com/watch?v=j9vfSaCIyPI&list=PLXzx948cNtr8N5zLNJNVYrvIG6hk0Kxl-)
 - [Slide](https://insightlab.ufc.br/wp-content/uploads/2020/05/Introdu%C3%A7%C3%A3o-a-Docker-compactado.pdf) do curso acima
 - [Ambiente de desenvolvimento nodejs com docker](https://youtu.be/AVNADGzXrrQ)
